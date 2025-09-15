@@ -1,0 +1,14 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: stayndine-edge
+  jackson:
+    property-naming-strategy: LOWER_CAMEL_CASE
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
